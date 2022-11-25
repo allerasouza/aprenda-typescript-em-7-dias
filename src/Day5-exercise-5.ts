@@ -1,19 +1,19 @@
-// Day 5 - Exercise 5
+// // Day 5 - Exercise 5
 
-interface UserSchema {
-    id: number
-    name: string
-}
+// interface UserSchema {
+//     id: number
+//     name: string
+// }
 
-class User implements UserSchema {
-    constructor(public name: string, public readonly id: number) {}
-}
+// class User implements UserSchema {
+//     constructor(public name: string, public readonly id: number) {}
+// }
 
-const user = new User('Dog', 1)
+// const user = new User('Dog', 1)
 
-console.log(user.id)
+// console.log(user.id)
 
-user.name = 'Harold' // pode mudar
-// user.id = 5 // nao pode mudar
+// user.name = 'Harold' // pode mudar
+// // user.id = 5 // nao pode mudar
 
-console.log(`User:`, user)
+// console.log(`User:`, user)

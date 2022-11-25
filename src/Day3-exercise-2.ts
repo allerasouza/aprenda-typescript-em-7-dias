@@ -1,6 +1,6 @@
-// Day 3 - Exercise 2
+// // Day 3 - Exercise 2
 
-let pie: string;
-pie = 'blueberry';
+// let pie: string;
+// pie = 'blueberry';
 
-console.log(`I like to eat ${pie}-flavored pie.`)
+// console.log(`I like to eat ${pie}-flavored pie.`)
